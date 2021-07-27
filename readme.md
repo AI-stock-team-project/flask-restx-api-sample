@@ -6,10 +6,14 @@ Flask
 * git : https://github.com/pallets/flask
 * doc : https://flask.palletsprojects.com/en/2.0.x/
 
+
+# Flask-restx 란?
 Flask-restx
 * git : https://github.com/python-restx/flask-restx
 * doc : https://flask-restx.readthedocs.io/en/latest/
 * API 서비스를 시각적으로 쉽게 볼 수 있게 하는 `Swagger UI`(https://swagger.io/tools/swagger-ui/) 라는 것을 연동시켜서 볼 수 있게 해준다.
+
+![샘플예시](./screenshot/flask-restx.png)
 
 
 # PIP 리스트
@@ -20,11 +24,11 @@ pip install flask
 pip install flask-restx
 ```
 
+
 # flask 실행
 (도커 없이 테스트할 때)
 
 `flask run -p 5000`
-
 
 
 참고) docker 내에서 이용할 때에는 host 를 `0.0.0.0`으로 주어야 한다. (모든 곳에서 이용가능하게 하겠다는 의미로 보임)
